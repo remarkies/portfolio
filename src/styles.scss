@@ -1,1 +1,124 @@
 /* You can add global styles to this file, and also import other style files */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import 'variables.scss';
+
+@font-face {
+  font-family: Graphik;
+  src: url('assets/fonts/GraphikThinItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: Graphik;
+  src: url('assets/fonts/GraphikThin.otf') format('opentype');
+  font-weight: 100;
+}
+@font-face {
+  font-family: Graphik;
+  src: url('assets/fonts/GraphikExtraLightItalic.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: Graphik;
+  src: url('assets/fonts/GraphikExtraLight.otf') format('opentype');
+  font-weight: 200;
+}
+@font-face {
+  font-family: Graphik;
+  src: url('assets/fonts/GraphikLightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: Graphik;
+  src: url('assets/fonts/GraphikLight.otf') format('opentype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: Graphik;
+  src: url('assets/fonts/GraphikRegularItalic.otf') format('opentype');
+  font-style: italic;
+}
+@font-face {
+  font-family: Graphik;
+  src: url('assets/fonts/GraphikRegular.otf') format('opentype');
+}
+@font-face {
+  font-family: Graphik;
+  src: url('assets/fonts/GraphikMediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: Graphik;
+  src: url('assets/fonts/GraphikMedium.otf') format('opentype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: Graphik;
+  src: url('assets/fonts/GraphikSemiboldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: Graphik;
+  src: url('assets/fonts/GraphikSemibold.otf') format('opentype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: Graphik;
+  src: url('assets/fonts/GraphikBoldItalic.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: Graphik;
+  src: url('assets/fonts/GraphikBold.otf') format('opentype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: Graphik;
+  src: url('assets/fonts/GraphikBlackItalic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: Graphik;
+  src: url('assets/fonts/GraphikBlack.otf') format('opentype');
+  font-weight: 800;
+}
+@font-face {
+  font-family: Graphik;
+  src: url('assets/fonts/GraphikSuperItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: Graphik;
+  src: url('assets/fonts/GraphikSuper.otf') format('opentype');
+  font-weight: 900;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Graphik', 'arial', sans-serif;
+}
+
+html, body {
+  scroll-behavior: smooth;
+  height: 100vh;
+  min-height: 100%;
+  background: var(--bgColor2);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,16 @@
+<div class="flex justify-between md:block p-8 max-w-screen-lg md:p-16 lg:m-auto">
+  <div class="flex md:justify-between">
+    <app-a-link [label]="'Luka Kramer'" [link]="''"></app-a-link>
+    <p class="hidden md:block text-highlight">{{currentYear}}</p>
+  </div>
+  <ul class="grid grid-cols-2 gap-4 md:mt-16">
+    <li>
+      <app-a-link [label]="'About'" [link]="'/about'"></app-a-link>
+      <p class="leading-normal text-foreground mt-8 max-w-xxs opacity-75 hidden md:block">How I got into coding, why I proceed doing it and some other things I like to do.</p>
+    </li>
+    <li>
+      <app-a-link [label]="'Projects'" [link]="'/projects'"></app-a-link>
+      <p class="leading-normal text-foreground mt-8 max-w-xxs opacity-75 hidden md:block">All kind of work I did in my free time or during my studies. </p>
+    </li>
+  </ul>
+</div>
