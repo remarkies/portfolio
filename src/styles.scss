@@ -119,6 +119,16 @@ html, body {
   text-rendering: optimizeLegibility;
 }
 
+::selection {
+  background: var(--accent-background); /* WebKit/Blink Browsers */
+  color: var(--accent);
+  text-underline-color: var(--accent-background) !important;
+}
+::-moz-selection {
+  background: var(--accent-background); /* Gecko Browsers */
+  color: var(--accent);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -7,13 +7,17 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import {AppRoutingModule} from "./app-routing.module";
 import { HeaderComponent } from './modules/shared/header/header.component';
 import { ALinkComponent } from './modules/shared/a-link/a-link.component';
+import { AboutPageComponent } from './modules/about/about-page/about-page.component';
+import { RecentProjectComponent } from './modules/home/components/recent-project/recent-project.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
     HeaderComponent,
-    ALinkComponent
+    ALinkComponent,
+    AboutPageComponent,
+    RecentProjectComponent
   ],
   imports: [
     BrowserModule,
