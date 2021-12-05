@@ -14,6 +14,16 @@ module.exports = {
     extend: {
       maxWidth: {
         'xxs': '220px'
+      },
+      gridRow: {
+        '1': '1',
+        '2': '2',
+        '1/7': '1 / 7',
+        '2/8': '2 / 8'
+      },
+      gridColumn: {
+        '1': '1',
+        '2': '2'
       }
     },
   },
