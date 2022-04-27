@@ -17,13 +17,13 @@
 }
 @font-face {
   font-family: Graphik;
-  src: url('assets/fonts/GraphikExtraLightItalic.otf') format('opentype');
+  src: url('assets/fonts/GraphikExtralightItalic.otf') format('opentype');
   font-weight: 200;
   font-style: italic;
 }
 @font-face {
   font-family: Graphik;
-  src: url('assets/fonts/GraphikExtraLight.otf') format('opentype');
+  src: url('assets/fonts/GraphikExtralight.otf') format('opentype');
   font-weight: 200;
 }
 @font-face {
@@ -114,7 +114,7 @@ html, body {
   scroll-behavior: smooth;
   height: 100vh;
   min-height: 100%;
-  background: var(--bgColor2);
+  background: var(--background);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }

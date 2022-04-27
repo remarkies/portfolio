@@ -5,6 +5,10 @@ a {
   transition: all 0.25s;
 }
 
+.active {
+  text-decoration-color: var(--foreground);
+}
+
 a:hover {
   text-decoration-color: var(--foreground);
   transition: all 0.25s;

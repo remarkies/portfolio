@@ -6,10 +6,12 @@
   <ul class="grid grid-cols-2 md:grid-cols-3 gap-4 md:mt-8">
     <li>
       <app-a-link [label]="'About'" [link]="'/about'"></app-a-link>
-      <p class="leading-normal text-foreground mt-4 max-w-xxs opacity-75 hidden md:block">How I got into coding, why I proceed doing it and some other things I like to do.</p>
+      <p class="leading-normal text-foreground mt-4 max-w-xxs opacity-75 hidden md:block">Who even cares about this section? Still feels wrong to not have it.</p>
     </li>
     <li>
-      <app-a-link [label]="'Projects'" [link]="'/projects'"></app-a-link>
+      <div class="flex">
+        <app-a-link [label]="'Projects'" [link]="'/projects'"></app-a-link>
+      </div>
       <p class="leading-normal text-foreground mt-4 max-w-xxs opacity-75 hidden md:block">All kind of work I did in my free time or during my studies. </p>
     </li>
   </ul>

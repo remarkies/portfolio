@@ -9,7 +9,8 @@ module.exports = {
       foreground: 'var(--foreground)',
       highlight: 'var(--highlight)',
       accentBackground: 'var(--accent-background)',
-      accent: 'var(--accent)'
+      accent: 'var(--accent)',
+      white: 'white'
     },
     extend: {
       maxWidth: {
